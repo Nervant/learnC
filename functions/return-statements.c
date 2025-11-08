@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Function declarations
+// function declarations
 int getMax(int x, int y);
 double square(double num);
 int sum(int a, int b, int c);

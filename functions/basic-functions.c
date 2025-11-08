@@ -33,7 +33,7 @@ int main() {
 // function with no parameters
 void greet() {
     printf("\n==============================\n");
-    printf("  BIRTHDAY CELEBRATION TIME!  \n");
+    printf("  BIRTHDAY CELEBRATION!  \n");
     printf("==============================\n");
 }
 

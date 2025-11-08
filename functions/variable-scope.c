@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-// variable scope = Refers to where a variable is recognized and accessible.
-//                  Variables can share the same name if
+// variable scope = refers to where a variable is recognized and accessible.
+//                  variables can share the same name if
 //                  they're in different scopes {}
 
 // global variable = accessible everywhere
@@ -38,7 +38,7 @@ void function1() {
 }
 
 void function2() {
-    // another localVar - also different from others
+    // another localVar = also different from others
     int localVar = 75;
     
     printf("=== FUNCTION 2 ===\n");

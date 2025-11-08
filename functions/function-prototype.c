@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-// function prototype = Ppovide the compiler with information about a function's:
+// function prototype = provide the compiler with information about a function's:
 //                      name, return type, and parameters before its actual definition.
-//                      Enables type checking and allows functions to be used before
+//                      enables type checking and allows functions to be used before
 //                      they're defined.
 //                      improves readability, organization, and helps prevent errors.
 
@@ -40,7 +40,7 @@ int main() {
     return 0;
 }
 
-// Function definitions
+// function definitions
 void hello(char name[], int age) {
     printf("Hello %s!\n", name);
     printf("You are %d years old.\n", age);
