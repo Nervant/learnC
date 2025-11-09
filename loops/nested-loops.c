@@ -4,7 +4,7 @@ int main() {
 
     // nested loop = a loop inside another loop
 
-    // ========== EXAMPLE 1: simple pattern ==========
+    // ========== EXAMPLE 1: SIMPLE PATTERN ==========
     
     printf("=== Simple Pattern ===\n");
     for (int i = 1; i <= 3; i++) {
@@ -15,7 +15,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 2: multiplication table ==========
+    // ========== EXAMPLE 2: MULTIPLICATION TABLE ==========
     
     printf("=== Multiplication Table ===\n");
     for (int i = 1; i <= 5; i++) {
@@ -26,7 +26,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 3: rectangle pattern ==========
+    // ========== EXAMPLE 3: RECTANGLE PATTERN ==========
     
     int rows = 5;
     int cols = 10;
@@ -40,7 +40,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 4: right triangle pattern ==========
+    // ========== EXAMPLE 4: RIGHT TRIANGLE PATTERN ==========
     
     printf("=== Right Triangle Pattern ===\n");
     for (int i = 1; i <= 5; i++) {
@@ -51,7 +51,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 5: number pyramid ==========
+    // ========== EXAMPLE 5: NUMBER PYRAMID ==========
     
     printf("=== Number Pyramid ===\n");
     for (int i = 1; i <= 5; i++) {

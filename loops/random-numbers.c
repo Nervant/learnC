@@ -13,13 +13,13 @@ int main() {
     // this ensures different numbers each time program runs
     srand(time(NULL));
 
-    // ========== EXAMPLE 1: random number between 1 and 6 (dice) ==========
+    // ========== EXAMPLE 1: RANDOM NUMBER BETWEEN 1 and 6 (DICE) ==========
     
     printf("=== Rolling a dice ===\n");
     int dice = (rand() % 6) + 1;
     printf("You rolled: %d\n\n", dice);
 
-    // ========== EXAMPLE 2: random number in a range ==========
+    // ========== EXAMPLE 2: RANDOM NUMBER IN A RANGE ==========
     
     int min = 1;
     int max = 100;
@@ -31,7 +31,7 @@ int main() {
 
     printf("%d %d %d\n\n", randomNum1, randomNum2, randomNum3);
 
-    // ========== EXAMPLE 3: random numbers in a loop ==========
+    // ========== EXAMPLE 3: RANDOM NUMBERS IN A LOOP ==========
     
     printf("=== 5 random numbers (1-10) ===\n");
     for (int i = 0; i < 5; i++) {
@@ -40,13 +40,13 @@ int main() {
     }
     printf("\n\n");
 
-    // ========== EXAMPLE 4: random floating point number ==========
+    // ========== EXAMPLE 4: RANDOM FLOATING POINT NUMBER ==========
     
     printf("=== Random float (0.0 to 1.0) ===\n");
     float randomFloat = (float)rand() / RAND_MAX;
     printf("%.4f\n\n", randomFloat);
 
-    // ========== EXAMPLE 5: random choice from options ==========
+    // ========== EXAMPLE 5: RANDOM CHOICE FROM OPTIONS ==========
     
     printf("=== Random coin flip ===\n");
     int coin = rand() % 2; // 0 or 1

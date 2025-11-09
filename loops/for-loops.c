@@ -5,7 +5,7 @@ int main() {
     // for loop = repeat some code a limited # of times
     //            for(initialization; condition; update)
 
-    // ========== EXAMPLE 1: count up ==========
+    // ========== EXAMPLE 1: COUNT UP ==========
     
     printf("=== Counting from 1 to 10 ===\n");
     for (int i = 1; i <= 10; i++) {
@@ -13,7 +13,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 2: count down ==========
+    // ========== EXAMPLE 2: COUNT DOWN ==========
     
     printf("=== Countdown from 10 to 1 ===\n");
     for (int i = 10; i >= 1; i--) {
@@ -21,7 +21,7 @@ int main() {
     }
     printf("Blast off!\n\n");
 
-    // ========== EXAMPLE 3: count by 2s ==========
+    // ========== EXAMPLE 3: COUNT BY 2s ==========
     
     printf("=== Even numbers from 0 to 20 ===\n");
     for (int i = 0; i <= 20; i += 2) {
@@ -29,7 +29,7 @@ int main() {
     }
     printf("\n\n");
 
-    // ========== EXAMPLE 4: multiplication table ==========
+    // ========== EXAMPLE 4: MULTIPLICATION TABLE ==========
     
     int number = 5;
     printf("=== Multiplication table for %d ===\n", number);
@@ -38,7 +38,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 5: sum of numbers ==========
+    // ========== EXAMPLE 5: SUM OF NUMBERS ==========
     
     int sum = 0;
     for (int i = 1; i <= 100; i++) {

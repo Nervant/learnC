@@ -5,7 +5,7 @@ int main() {
     // break = break out of a loop (STOP)
     // continue = skip current cycle of a loop (SKIP)
 
-    // ========== BREAK EXAMPLE 1: stop at specific number ==========
+    // ========== BREAK EXAMPLE 1: STOP AT SPECIFIC NUMBER ==========
     
     printf("=== BREAK: Stop when reaching 5 ===\n");
     for (int i = 1; i <= 10; i++) {
@@ -16,7 +16,7 @@ int main() {
     }
     printf("Loop stopped!\n\n");
 
-    // ========== BREAK EXAMPLE 2: search for a number ==========
+    // ========== BREAK EXAMPLE 2: SEARCH FOR A NUMBER ==========
     
     int numbers[] = {10, 20, 30, 40, 50};
     int target = 30;
@@ -30,7 +30,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== CONTINUE EXAMPLE 1: skip odd numbers ==========
+    // ========== CONTINUE EXAMPLE 1: SKIP ODD NUMBERS ==========
     
     printf("=== CONTINUE: Print only even numbers ===\n");
     for (int i = 1; i <= 10; i++) {
@@ -41,7 +41,7 @@ int main() {
     }
     printf("\n\n");
 
-    // ========== CONTINUE EXAMPLE 2: skip specific value ==========
+    // ========== CONTINUE EXAMPLE 2: SKIP SPECIFIC VALUE ==========
     
     printf("=== CONTINUE: Skip number 5 ===\n");
     for (int i = 1; i <= 10; i++) {
@@ -73,14 +73,14 @@ int main() {
  * BREAK vs CONTINUE:
  * 
  * BREAK:
- * - Immediately exits the loop
- * - Execution continues after the loop
- * - Use when: you want to stop the loop completely
+ * - immediately exits the loop
+ * - execution continues after the loop
+ * - use when: you want to stop the loop completely
  * 
  * CONTINUE:
- * - Skips the rest of current iteration
- * - Goes to next iteration of the loop
- * - Use when: you want to skip specific cases but keep looping
+ * - skips the rest of current iteration
+ * - goes to next iteration of the loop
+ * - use when: you want to skip specific cases but keep looping
  * 
  * example:
  * for (i = 1; i <= 5; i++) {

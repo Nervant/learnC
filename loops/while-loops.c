@@ -7,7 +7,7 @@ int main() {
     // while loop = continue some code WHILE the condition remains true
     //              condition must be true for us to enter while loop
 
-    // ========== EXAMPLE 1: simple counter ==========
+    // ========== EXAMPLE 1: SIMPLE COUNTER ==========
     
     int count = 1;
     
@@ -18,7 +18,7 @@ int main() {
     }
     printf("\n");
 
-    // ========== EXAMPLE 2: input validation ==========
+    // ========== EXAMPLE 2: INPUT VALIDATION ==========
     
     char name[50] = "";
 
@@ -35,7 +35,7 @@ int main() {
 
     printf("Hello %s!\n\n", name);
 
-    // ========== EXAMPLE 3: game loop ==========
+    // ========== EXAMPLE 3: GAME LOOP ==========
     
     bool isRunning = true;
     char response = '\0';
@@ -64,10 +64,10 @@ int main() {
  * }
  * 
  * how it works:
- * 1. Check condition
- * 2. If true, execute code block
- * 3. Repeat from step 1
- * 4. If false, exit loop
+ * 1. check condition
+ * 2. if true, execute code block
+ * 3. repeat from step 1
+ * 4. if false, exit loop
  * 
  * IMPORTANT:
  * - condition is checked BEFORE entering the loop
