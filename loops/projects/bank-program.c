@@ -105,15 +105,3 @@ double withdraw(double balance) {
 
     return balance;
 }
-
-/*
- * CONCEPTS PRACTICED:
- * - while loops
- * - functions with return values
- * - functions with parameters
- * - void functions
- * - switch statements
- * - boolean flags
- * - input validation
- * - balance tracking
- */

@@ -94,14 +94,3 @@ int main() {
 
     return 0;
 }
-
-/*
- * CONCEPTS PRACTICED:
- * - while loops
- * - random number generation
- * - switch statements
- * - complex conditionals
- * - input validation
- * - boolean flags
- * - continue statement
- */

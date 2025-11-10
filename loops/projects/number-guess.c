@@ -41,12 +41,3 @@ int main() {
 
     return 0;
 }
-
-/*
- * CONCEPTS PRACTICED:
- * - while loops
- * - random number generation
- * - conditional statements
- * - user input
- * - counter variables
- */
