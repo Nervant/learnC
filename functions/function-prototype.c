@@ -69,7 +69,7 @@ double calculateArea(double radius) {
  * int add(int, int);           // parameter names optional
  * int add(int a, int b);       // parameter names included (better readability)
  * 
- * Benefits:
+ * benefits:
  * 1. allows functions to be called before they're defined
  * 2. compiler can check if function calls match declarations
  * 3. better code organization (all declarations at top)

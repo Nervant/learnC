@@ -10,19 +10,19 @@ int main() {
 
     // return = returns a value back to where you call a function
 
-    // ========== EXAMPLE 1: finding maximum ==========
+    // ========== EXAMPLE 1: FINDING MAXIMUM ==========
     int max = getMax(10, 25);
     printf("The maximum is: %d\n", max);
 
-    // ========== EXAMPLE 2: squaring a number ==========
+    // ========== EXAMPLE 2: SQUARING A NUMBER ==========
     double result = square(5.5);
     printf("5.5 squared is: %.2lf\n", result);
 
-    // ========== EXAMPLE 3: sum of three numbers ==========
+    // ========== EXAMPLE 3: SUM OF THREE NUMBERS ==========
     int total = sum(10, 20, 30);
     printf("The sum is: %d\n", total);
 
-    // ========== EXAMPLE 4: getting a grade ==========
+    // ========== EXAMPLE 4: GETTING A GRADE ==========
     char grade = getGrade(85);
     printf("Your grade is: %c\n", grade);
 
