@@ -3,7 +3,7 @@
 // array = a fixed-size collection of elements of the same data type
 //              (similar to a variable, but it holds more than 1 value)
 
-int main() {
+int main(){
 
     // declare and initialize an array of integers
     int numbers[] = {1, 2, 3, 4, 5};
