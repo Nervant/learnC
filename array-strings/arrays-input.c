@@ -2,7 +2,7 @@
 
 int main() {
 
-    int prices[5];
+    int prices[5] = {0};
 
     printf("Enter 5 prices:\n");
 
