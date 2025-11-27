@@ -49,8 +49,8 @@ int main() {
  * arrayName[index].memberName
  * 
  * example:
- * cars[0].model    // Access first car's model
- * cars[1].year     // Access second car's year
+ * cars[0].model    // access first car's model
+ * cars[1].year     // access second car's year
  * 
  * benefits:
  * - store multiple related records
