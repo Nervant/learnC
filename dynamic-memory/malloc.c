@@ -35,6 +35,8 @@ int main() {
 
     // free allocated memory
     free(grades);
+    // avoid dangling pointers
+    grades == NULL;
 
     return 0;
 }
